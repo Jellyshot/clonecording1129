@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Youtube</title>
     <link rel="stylesheet" href="/css/cloneYoutube.css">
+    <link href="https://fonts.google.com/specimen/Roboto?query=roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -15,50 +16,114 @@
                 <i class="fa fa-bars"></i>
             </div>
             <div class="logoimg dbg">
-                <img src="/img/youtubelogo.jpg">
+                <i class="fa fa-youtube-play"></i>
+                <span class="title" ><b>YouTube</span>
             </div>
         </div>
         <div class="search dbg">
             <div class="search-bar">
-                <!-- <input type="text" placeholder="검색"> -->
-                <a href="#"></a>
+                <input type="text" placeholder="검색">
+                <a href="#"><i class="fa fa-keyboard-o" style="color: black;"></i></a>
+                <button><i class="fa fa-search"></i></button>
             </div>
         </div>
         <div class="icons dbg">
-            <div class="appmenu dbg">
-
+            <div>
+                <i class="fa fa-microphone"></i>
             </div>
-            <div class="dotsmenu dbg">
-                
-            </div>
-            <div class="loginbtn dbg">
-
+            <div>
+            <i class="fa fa-th"></i>
+            <i class="fa fa-ellipsis-v"></i>
+            <a href="#"><button><i class="fa fa-user-circle-o"></i>로그인 </button></a>
             </div>
         </div>
     </header>
 
     <aside>
-        <div class="guide-section dbg">
-
+        <div class="guide-section1 dbg">
+            <li><a href="#"><i class="fa fa-home"></i> 홈</a></li>
+            <li><a href="#"><i class="fa fa-compass"></i> 탐색</a></li>
+            <li><a href="#"><i class="fa fa-folder-o"></i> 구독</a></li>
+        </div>
+        <div class="guide-section2 dbg">
+            <li><a href="#"><i class="fa fa-stack-overflow"></i> 보관함</a></li>
+            <li><a href="#"><i class="fa fa-clock-o"></i> 시청기록</a></li>
         </div>
         <div class="guide-renderer dbg">
-
+            <p>로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다. </p>
+            <br>
+            <a href="#"><button><i class="fa fa-user-circle-o"></i>로그인</button></a>
         </div>
-        <div class="copyright dbg">
-
+        <div class="guide-popular dbg">
+            인기 YOUTUBE
+            <li><a href="#"><i class="fa fa-music"></i> 음악</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i> 스포츠</a></li>
+            <li><a href="#"><i class="fa fa-heart"></i> 게임</a></li>
+            <li><a href="#"><i class="fa fa-film"></i> 영화</a></li>
+            <li><a href="#"><i class="fa fa-newspaper-o"></i> 뉴스</a></li>
+            <li><a href="#"><i class="fa fa-rss"></i> 실시간</a></li>
+            <li><a href="#"><i class="fa fa-lightbulb-o"></i> 학습</a></li>
+            <li><a href="#"><i class="fa fa-caret-square-o-right"></i> 360동영상</a></li>
         </div>
+
+        <div class="addchannel">
+            <li><a href="#"><i class="fa fa-plus-circle"></i> 채널탐색</a></li>
+            
+        </div>
+
+
     </aside>
 
     <div class="container dbg">
         <nav>
-
+            <ul>
+                <li>전체</li>
+                <li>음악</li>
+                <li>랩</li>
+                <li>게임</li>
+                <li>요리 프로그램</li>
+                <li>축구</li>
+                <li>애니메이션</li>
+                <li>요리</li>
+                <li>액션 어드밴처 게임</li>
+                <li>반려동물</li>
+                <li>최근에 업로드 된 동영상</li>
+                <li>실시간</li>
+            </ul>
         </nav>
-        <div contents>
+        <div class= "contents">
             <div class="ad dbg">
-
+                <video autoplay src="/video/Seoul - 21985.mp4"></video>
             </div>
-            <div class="contents-box1 dbg"></div>
-            <div class="contents-box2 dbg"></div>
+            <div class="contents-box1 dbg">
+                <div class="ct">
+                    <a href="#"><img src="/img/hq720_live.jpg"></a>
+                    <li>Relaxing Jazz Piano Radio - slow Jazz Music - 24/7 Live Stream</li>
+                    <li>Cafe Music BGM channel</li>
+                    <li>2.3천명 시청 중</li>
+                </div>
+                <div class="ct">
+                    <a href="#"><img src="/img/hq720.jpg"></a>
+                    <li>가을에 듣기 좋은 노래 b베스트 100곡|하루 종일 들어도 좋은 노래 Best 100곡</li>
+                    <li>K-POP 발라드 모음-PlayList</li>
+                    <li>조회수 84만회·1개월 전</li>
+                </div>
+            </div>
+            <div class="contents-box2 dbg">
+                <div class="ct">
+                    <a href="#"><img src="/img/hq720 (1).jpg"></a>
+                    <li>로켓과학 설명회|2부 NASA와 VSVN</li>
+                    <li>침착맨</li>
+                    <li>조회수 25만회·1일 전</li>
+                </div>
+                <div class="ct">
+                    <a href="#"><img src="/img/hq720 (2).jpg"></a>
+                    <li>[SMTM10/9회]♬불협화음(Feat.AKMU)-머드 더 스튜던트@세미파이널</li>
+                    <li>MnetTV</li>
+                    <li>조회수 56만회·4일 전</li>
+                </div>
+            </div>
+            
         </div>
 
     </div>
